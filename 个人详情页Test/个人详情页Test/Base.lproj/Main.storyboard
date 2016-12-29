@@ -45,7 +45,7 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="a66-Sn-zzz"/>
                                 </connections>
                             </tableView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="123" translatesAutoresizingMaskIntoConstraints="NO" id="pvE-NI-WaY">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="123" translatesAutoresizingMaskIntoConstraints="NO" id="pvE-NI-WaY">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="RBP-ML-sJX"/>
@@ -64,6 +64,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="WXC-YE-vmc"/>
+                    <nil key="simulatedTopBarMetrics"/>
                     <connections>
                         <outlet property="imageHeight" destination="RBP-ML-sJX" id="9PA-bv-VnG"/>
                         <outlet property="szyTableView" destination="IAB-zR-XZz" id="FE5-4w-mzo"/>
